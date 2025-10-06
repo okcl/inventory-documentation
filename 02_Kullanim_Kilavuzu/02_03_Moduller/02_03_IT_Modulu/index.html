@@ -1,0 +1,1002 @@
+
+<!doctype html>
+<html lang="tr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Kurumsal Envanter PowerApps uygulaması için kullanıcı kılavuzu">
+      
+      
+      
+      
+        <link rel="prev" href="../../02_02_Arayuz_Genel_Bakis/">
+      
+      
+        <link rel="next" href="../02_04_Demirbas_Modulu/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>IT Modülü - PowerApps Envanter Dokümantasyonu</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2a3383ac.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#it-modulu" class="md-skip">
+          Ana içeriğe geç
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Başlık">
+    <a href="../../.." title="PowerApps Envanter Dokümantasyonu" class="md-header__button md-logo" aria-label="PowerApps Envanter Dokümantasyonu" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PowerApps Envanter Dokümantasyonu
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IT Modülü
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Ara" placeholder="Ara" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Ara">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Temizle" aria-label="Temizle" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Arama başlatılıyor
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigasyon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="PowerApps Envanter Dokümantasyonu" class="md-nav__button md-logo" aria-label="PowerApps Envanter Dokümantasyonu" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    PowerApps Envanter Dokümantasyonu
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ana Sayfa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Giris_GenelBakis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Genel Bakış
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Kullanım Kılavuzu
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Kullanım Kılavuzu
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_01_Giris/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Giriş
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_02_Arayuz_Genel_Bakis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arayüz Genel Bakış
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modüller
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Modüller
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    IT Modülü
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    IT Modülü
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="İçindekiler">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      İçindekiler
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#it-modulu-genel-baks" class="md-nav__link">
+    <span class="md-ellipsis">
+      IT Modülü - Genel Bakış
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ekranlar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ekranlar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ekranlar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#it-ana-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      IT Ana Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#envanterolustur-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      EnvanterOluştur Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#envanterliste-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      EnvanterListe Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kullancdegistir-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      KullanıcıDeğiştir Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#envanterlog-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      EnvanterLog Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#envanterincele-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      EnvanterIncele Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dokumanal-ekran" class="md-nav__link">
+    <span class="md-ellipsis">
+      DökümanAl Ekranı
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#it-modulu-ipuclar" class="md-nav__link">
+    <span class="md-ellipsis">
+      IT Modülü İpuçları
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_04_Demirbas_Modulu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Demirbaş Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_05_Arac_Modulu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Araç Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_06_Kullanici_Modulu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kullanıcı Modülü
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="it-modulu">IT Modülü<a class="headerlink" href="#it-modulu" title="Permanent link">&para;</a></h1>
+<p><strong>Versiyon:</strong> 1.0<br />
+<strong>Tarih:</strong> 18 Eylül 2025  </p>
+<h2 id="it-modulu-genel-baks">IT Modülü - Genel Bakış<a class="headerlink" href="#it-modulu-genel-baks" title="Permanent link">&para;</a></h2>
+<p>IT Modülü, teknolojik varlıkların (laptop, telefon, yazıcı, televizyon) zimmet takibi, teknik özellik yönetimi ve durum güncellemeleri için tasarlanmıştır. IT ekibi ve yöneticiler için özelleştirilmiş, 1500+ cihaz kaydı destekler.</p>
+<p><strong>Kapsam:</strong></p>
+<ul>
+<li>Zimmetli cihaz takibi (Kullanıcı → Cihaz)</li>
+<li>Teknik özellik kaydı (RAM, CPU, Seri No)</li>
+<li>Durum yönetimi (Kullanımda/Boşta/Tamirde)</li>
+<li>Raporlama ve log tutma</li>
+</ul>
+<p><strong>Kullanıcı Profili:</strong> IT Yöneticileri, Sistem Yöneticileri</p>
+<hr />
+<h2 id="ekranlar">Ekranlar<a class="headerlink" href="#ekranlar" title="Permanent link">&para;</a></h2>
+<h3 id="it-ana-ekran">IT Ana Ekranı<a class="headerlink" href="#it-ana-ekran" title="Permanent link">&para;</a></h3>
+<p>IT ekibi için ana kontrol paneli. Envanter oluşturma ve listeleme işlemleri buradan başlar.</p>
+<p><img alt="IT Ana Ekranı" src="/images/ITEkran.png" /><br />
+<em>Şekil 3.1: IT Dashboard - Envanter oluşturma ve arama</em></p>
+<p><strong>Ana Bileşenler:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Bileşen</th>
+<th>Açıklama</th>
+<th>İşlev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Envanter Oluştur</strong></td>
+<td>Yeni cihaz ekleme butonu</td>
+<td>Form ekranına geçiş</td>
+</tr>
+<tr>
+<td><strong>Envanter Listele</strong></td>
+<td>Cihaz galerisi</td>
+<td>Arama ve filtreleme</td>
+</tr>
+<tr>
+<td><strong>Kullanıcılar</strong></td>
+<td>Zimmetli kullanıcı listesi</td>
+<td>Profil incele/değiştir</td>
+</tr>
+<tr>
+<td><strong>Döküman Al</strong></td>
+<td>Rapor oluşturma</td>
+<td>E-posta ile gönderme</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kullanım Adımları:</strong></p>
+<ol>
+<li>"Envanter Listele"ye tıklayın → Arama kutusuna "laptop" yazın</li>
+<li>Cihaz seçin → Detay panelinde durum kontrol edin</li>
+<li>"Döküman Al" → Excel raporu e-posta ile gönder</li>
+</ol>
+<h3 id="envanterolustur-ekran">EnvanterOluştur Ekranı<a class="headerlink" href="#envanterolustur-ekran" title="Permanent link">&para;</a></h3>
+<p>Yeni IT cihazı kaydı oluşturma formu. Teknik özellikler ve zimmet bilgileri girilir.</p>
+<p><img alt="Envanter Oluştur" src="/images/EnvanterOlustur.png" /><br />
+<em>Şekil 3.2: Yeni cihaz ekleme formu - Teknik özellikler</em></p>
+<p><strong>Form Alanları:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Alan</th>
+<th>Tip</th>
+<th>Açıklama</th>
+<th>Zorunlu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Resim</strong></td>
+<td>Görsel yükleme</td>
+<td>Cihaz fotoğrafı</td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>Durum</strong></td>
+<td>Dropdown</td>
+<td>Kullanımda/Boşta/Tamirde</td>
+<td>Evet</td>
+</tr>
+<tr>
+<td><strong>Envanter Türü</strong></td>
+<td>Dropdown</td>
+<td>Laptop/Telefon/Yazıcı/Televizyon</td>
+<td>Evet</td>
+</tr>
+<tr>
+<td><strong>Marka</strong></td>
+<td>Metin</td>
+<td>Ürün markası (HP, Dell)</td>
+<td>Evet</td>
+</tr>
+<tr>
+<td><strong>Model</strong></td>
+<td>Metin</td>
+<td>Ürün modeli</td>
+<td>Evet</td>
+</tr>
+<tr>
+<td><strong>Seri No/IMEI</strong></td>
+<td>Metin</td>
+<td>Benzersiz kimlik</td>
+<td>Evet</td>
+</tr>
+<tr>
+<td><strong>Lokasyon</strong></td>
+<td>Dropdown</td>
+<td>Ankara/İstanbul/ofis odası</td>
+<td>Evet</td>
+</tr>
+<tr>
+<td><strong>Fatura Tarihi</strong></td>
+<td>Tarih</td>
+<td>Satın alma tarihi</td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>Fatura No</strong></td>
+<td>Metin</td>
+<td>Fatura referansı</td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>RAM</strong></td>
+<td>Sayı</td>
+<td>GB cinsinden</td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>SSD/HDD</strong></td>
+<td>Sayı</td>
+<td>GB cinsinden</td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>CPU</strong></td>
+<td>Metin</td>
+<td>İşlemci modeli</td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>Notlar</strong></td>
+<td>Çok satır metin</td>
+<td>Ek açıklamalar</td>
+<td>Hayır</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kullanım Adımları:</strong></p>
+<ol>
+<li>"Envanter Oluştur"a tıklayın → Form açılır</li>
+<li>Zorunlu alanları doldurun (Tür, Marka, Model, Seri No)</li>
+<li>Teknik özellikleri girin (RAM, CPU vb.)</li>
+<li>"Kaydet" → SharePoint'e otomatik kayıt</li>
+</ol>
+<p><strong>Önemli Not:</strong> Seri No benzersiz olmalıdır, sistem otomatik kontrol eder.</p>
+<h3 id="envanterliste-ekran">EnvanterListe Ekranı<a class="headerlink" href="#envanterliste-ekran" title="Permanent link">&para;</a></h3>
+<p>Tüm IT envanterini listeleyen galeri ekranı. Arama ve durum filtreleme ile.</p>
+<p><img alt="Envanter Liste" src="/images/EnvanterAra.png" /><br />
+<em>Şekil 3.3: Cihaz listesi - Durum bazlı filtreleme</em></p>
+<p><strong>Filtreleme Seçenekleri:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Filtre</th>
+<th>Açıklama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Arama Kutusu</strong></td>
+<td>Marka/Model/Seri No araması</td>
+</tr>
+<tr>
+<td><strong>Durum Filtresi</strong></td>
+<td>Kullanımda/Boşta/Tamirde</td>
+</tr>
+<tr>
+<td><strong>Lokasyon Filtresi</strong></td>
+<td>Şehir/ofis bazlı</td>
+</tr>
+<tr>
+<td><strong>Kullanıcı Filtresi</strong></td>
+<td>Zimmetli kişi bazlı</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ana Butonlar:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Buton</th>
+<th>İşlev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>+ (Ekle)</strong></td>
+<td>Yeni cihaz ekleme</td>
+</tr>
+<tr>
+<td><strong>Değiştir</strong></td>
+<td>Zimmet güncelleme</td>
+</tr>
+<tr>
+<td><strong>Log</strong></td>
+<td>Değişiklik geçmişi</td>
+</tr>
+<tr>
+<td><strong>Sil</strong></td>
+<td>Cihaz silme (onay gerekli)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kullanım Adımları:</strong></p>
+<ol>
+<li>Arama kutusuna "Dell" yazın → Sonuçlar filtrelenir</li>
+<li>"Boşta" filtresini seçin → Mevcut cihazlar listelenir</li>
+<li>Cihaz seçin → Sağ panelde detaylar görünür</li>
+<li>"Değiştir" → Kullanıcı atama ekranı açılır</li>
+</ol>
+<h3 id="kullancdegistir-ekran">KullanıcıDeğiştir Ekranı<a class="headerlink" href="#kullancdegistir-ekran" title="Permanent link">&para;</a></h3>
+<p>Cihaz zimmetini değiştirme ekranı. Mevcut kullanıcıdan yeni kullanıcıya geçiş.</p>
+<p><img alt="Kullanıcı Değiştir" src="/images/KullanıcıDeğiştir.png" /><br />
+<em>Şekil 3.4: Zimmet değiştirme - Kullanıcı seçimi</em></p>
+<p><strong>İşlem Adımları:</strong></p>
+<ol>
+<li>Cihaz seçin → "Değiştir" butonuna tıklayın</li>
+<li>Yeni kullanıcıyı açılır menüden seçin</li>
+<li>"Onayla" → Otomatik e-posta bildirimi gönderilir</li>
+<li>Eski kullanıcıya iade onayı maili</li>
+</ol>
+<p><strong>Güvenlik:</strong> Zimmet değişikliği loglanır, yönetici onayı gerekebilir.</p>
+<h3 id="envanterlog-ekran">EnvanterLog Ekranı<a class="headerlink" href="#envanterlog-ekran" title="Permanent link">&para;</a></h3>
+<p>Cihaz için yapılan tüm değişikliklerin geçmiş kaydı.</p>
+<p><img alt="Envanter Log" src="/images/EnvanterLog.png" /><br />
+<em>Şekil 3.5: Cihaz değişiklik geçmişi - Denetim raporu</em></p>
+<p><strong>Log Alanları:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Alan</th>
+<th>Açıklama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Başlık</strong></td>
+<td>Oluşturma/Düzenleme/Silme/Zimmet</td>
+</tr>
+<tr>
+<td><strong>Atama Tarihi&amp;Teslim Alış</strong></td>
+<td>İşlem zamanı</td>
+</tr>
+<tr>
+<td><strong>Kullanıcı</strong></td>
+<td>İlgili kişi</td>
+</tr>
+<tr>
+<td><strong>Not</strong></td>
+<td>İşlem açıklaması</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kullanım:</strong> Denetim ve uyuşmazlık çözümü için kullanılır.</p>
+<h3 id="envanterincele-ekran">EnvanterIncele Ekranı<a class="headerlink" href="#envanterincele-ekran" title="Permanent link">&para;</a></h3>
+<p>Seçili cihazın detaylı bilgileri ve düzenleme seçenekleri.</p>
+<p><img alt="Envanter İncele" src="/images/EnvanterIncele.png" /><br />
+<em>Şekil 3.6: Cihaz detay ekranı - Teknik özellikler</em></p>
+<p><strong>Detay Sekmeleri:</strong>
+- <strong>Genel Bilgi:</strong> Marka, model, seri no
+- <strong>Teknik Özellikler:</strong> RAM, CPU, depolama
+- <strong>Zimmet Geçmişi:</strong> Kullanıcı değişiklikleri
+- <strong>Bakım Kaydı:</strong> Servis geçmişi</p>
+<p><strong>İşlemler:</strong> Düzenle/Sil/Döküman Al</p>
+<h3 id="dokumanal-ekran">DökümanAl Ekranı<a class="headerlink" href="#dokumanal-ekran" title="Permanent link">&para;</a></h3>
+<p>IT envanteri için kişi bazında rapor oluşturma ve e-posta gönderme.</p>
+<p><img alt="Döküman Al" src="/images/KullanıcıDokumanAl.png" /><br />
+<em>Şekil 3.7: Rapor oluşturma - Excel/PDF export</em></p>
+<p><strong>Rapor Türleri:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Tür</th>
+<th>İçerik</th>
+<th>Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Lokasyon Raporu</strong></td>
+<td>Ofis bazlı</td>
+<td>PDF</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kullanım:</strong> "Döküman Al" →  "Teslim Formu" Butonuna Bas → Mail Kutunu Kontrol Et</p>
+<hr />
+<h2 id="it-modulu-ipuclar">IT Modülü İpuçları<a class="headerlink" href="#it-modulu-ipuclar" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Hızlı Zimmet:</strong> Arama kutusuna kullanıcı adı yazın, otomatik öneri</li>
+<li><strong>Toplu İşlem:</strong> Çoklu seçim ile durum güncelleme</li>
+<li><strong>Mobil Kullanım:</strong> Barkod tarama ile seri no girişi</li>
+<li><strong>Hata Yönetimi:</strong> Zorunlu alanlar kırmızı ile işaretlenir</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Başa dön
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand", "navigation.sections", "navigation.top", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
